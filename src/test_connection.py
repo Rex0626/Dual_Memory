@@ -1,4 +1,4 @@
-from config import graph
+from src.config import graph
 
 def test_neo4j():
     try:

@@ -1,7 +1,7 @@
 # 修改後的 chatbot_core.py 片段
-from config import llm
-from memory_engine import MemoryEngine
-from prompts import get_chat_prompt  # 引入剛寫好的提示詞模組
+from src.config import llm
+from src.memory_engine import MemoryEngine
+from src.prompts import get_chat_prompt  # 引入剛寫好的提示詞模組
 
 class ChatAgent:
     def __init__(self):

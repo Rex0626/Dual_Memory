@@ -1,5 +1,5 @@
 import uuid
-from config import graph, embeddings, llm
+from src.config import graph, embeddings, llm
 from langchain_chroma import Chroma
 
 # 1. 初始化本地向量庫
