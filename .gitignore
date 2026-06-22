@@ -1,0 +1,13 @@
+# 環境變數與機密資訊
+.env
+*.txt
+
+# Python 快取檔
+__pycache__/
+*.py[cod]
+
+# 本機向量資料庫 (ChromaDB)
+chroma_db/
+
+# 編輯器設定 (VS Code)
+.vscode/
